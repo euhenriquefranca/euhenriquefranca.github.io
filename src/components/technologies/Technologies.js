@@ -19,7 +19,7 @@ const Technologies = () => (
               <i className="fab fa-html5"></i>
             </div>
             <h4 className="title">
-              <a>HTML</a>
+              <a href="/">HTML</a>
             </h4>
             <p className="description">
               HTML é uma linguagem de marcação utilizada na construção de
@@ -38,7 +38,7 @@ const Technologies = () => (
               <i className="fab fa-css3-alt"></i>
             </div>
             <h4 className="title">
-              <a>CSS</a>
+              <a href="/">CSS</a>
             </h4>
             <p className="description">
               O CSS define como serão exibidos os elementos contidos no código
@@ -56,7 +56,7 @@ const Technologies = () => (
               <i className="fab fa-js"></i>
             </div>
             <h4 className="title">
-              <a>JavaScript</a>
+              <a href="/">JavaScript</a>
             </h4>
             <p className="description">
               Uma das linguagens de programação mais utilizadas hoje em dia
@@ -74,7 +74,7 @@ const Technologies = () => (
               <i className="fab fa-node-js"></i>
             </div>
             <h4 className="title">
-              <a>Node.js</a>
+              <a href="/">Node.js</a>
             </h4>
             <p className="description">
               Com essa tecnologia podemos criar desde sites até APIs diretamente
@@ -93,7 +93,7 @@ const Technologies = () => (
               <i className="fab fa-react"></i>
             </div>
             <h4 className="title">
-              <a>React JS</a>
+              <a href="/">React JS</a>
             </h4>
             <p className="description">
               Biblioteca usada para construir interface de usuário (UI)
@@ -111,7 +111,7 @@ const Technologies = () => (
               <i className="fab fa-bootstrap"></i>
             </div>
             <h4 className="title">
-              <a>Bootstrap</a>
+              <a href="/">Bootstrap</a>
             </h4>
             <p className="description">
               Framework com código fonte aberto para desenvolvimento Front End
@@ -129,7 +129,7 @@ const Technologies = () => (
               <i class="fab fa-docker"></i>
             </div>
             <h4 className="title">
-              <a>Docker</a>
+              <a href="/">Docker</a>
             </h4>
             <p className="description">
               Plataforma open-source cuja finalidade é criar ambientes isolados
@@ -148,7 +148,7 @@ const Technologies = () => (
               <i className="fas fa-database"></i>
             </div>
             <h4 className="title">
-              <a>MongoDB</a>
+              <a href="/">MongoDB</a>
             </h4>
             <p className="description">
               Banco de dados orientado a documentos (document database) no

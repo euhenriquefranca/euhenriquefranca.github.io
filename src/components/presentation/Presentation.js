@@ -9,7 +9,7 @@ const Presentation = () => (
     <p className="lead text-muted">
       Desenvolvedor Front End
     </p>
-    <a className="btn btn-primary btn-lg" href="#" role="button">
+    <a className="btn btn-primary btn-lg" href="/" role="button">
       Vamos conversar?
     </a>
   </div>

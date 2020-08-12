@@ -1,12 +1,17 @@
 import React, { Component } from "react";
+import ImageAbout from "../img/image2.png";
 
 class AboutMe extends Component {
   render() {
     return (
-      <div id="about" className="container-fluid about row d-flex justify-content-between">
+      <div
+        id="about"
+        className="container-fluid about row d-flex justify-content-between"
+      >
         <div className="col-lg-6 d-flex align-items-center justify-content-center">
           <img
-            src="/images/image2.png"
+            src={ImageAbout}
+            alt="about-image"
             className="img-fluid col-12"
             style={{ width: "auto", height: "auto" }}
           />
@@ -26,8 +31,11 @@ class AboutMe extends Component {
             Bootstrap, JavaScript (ES6+), React.js, Git, Node.js, MongoDB,
             Docker, REST APIs.
           </p>
+          
           <p>
-            <a href="#" className="btn btn-primary">Confira meu CV</a>
+            <a href="/" type="button" className="btn btn-primary">
+              Confira meu CV
+            </a>
           </p>
         </div>
       </div>

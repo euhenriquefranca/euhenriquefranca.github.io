@@ -1,4 +1,10 @@
 import React, { Component } from "react";
+import foodfy from '../img/foodfyok.png'
+import cobrinha from '../img/cobrinhaok.png'
+import ecoleta from '../img/ecoletaok.png'
+import challenge from '../img/challenge.png'
+import gerenciador from '../img/gerenciadorOk.png'
+import challenge2 from '../img/challenge2.png'
 
 class Projects extends Component {
   render() {
@@ -17,12 +23,13 @@ class Projects extends Component {
           >
             <div className="col-lg-4 col-md-6 portfolio-item filter-react filter-react">
               <div className="portfolio-wrap">
-                <img src="/images/foodfyok.png" className="img-fluid" alt="" />
+                <img src={foodfy} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://github.com/euhenriquefranca/foodfy"
                     title="Github"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
                   </a>
@@ -37,7 +44,7 @@ class Projects extends Component {
             <div className="col-lg-4 col-md-6 portfolio-item filter-react filter-rn">
               <div className="portfolio-wrap">
                 <img
-                  src="/images/cobrinhaok.png"
+                    src={cobrinha}
                   className="img-fluid"
                   alt=""
                 />
@@ -46,6 +53,7 @@ class Projects extends Component {
                     href="https://github.com/euhenriquefranca/jogo_cobrinhaJS"
                     title="Github"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
                   </a>
@@ -59,12 +67,13 @@ class Projects extends Component {
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-js">
               <div className="portfolio-wrap">
-                <img src="/images/ecoletaok.png" className="img-fluid" alt="" />
+                <img src={ecoleta} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://github.com/euhenriquefranca/ecoleta"
                     title="Github"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
                   </a>
@@ -78,12 +87,13 @@ class Projects extends Component {
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-react filter-rn">
               <div className="portfolio-wrap">
-                <img src="/images/challenge.png" className="img-fluid" alt="" />
+                <img src={challenge} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://github.com/euhenriquefranca/totvs-challenge-back-end"
                     title="Github"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
                   </a>
@@ -98,7 +108,7 @@ class Projects extends Component {
             <div className="col-lg-4 col-md-6 portfolio-item filter-rn">
               <div className="portfolio-wrap">
                 <img
-                  src="/images/gerenciadorOk.png"
+                  src={gerenciador}
                   className="img-fluid"
                   alt=""
                 />
@@ -107,6 +117,7 @@ class Projects extends Component {
                     href="https://github.com/euhenriquefranca/gerenciadorLinks-backend"
                     title="Github"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
                   </a>
@@ -121,7 +132,7 @@ class Projects extends Component {
             <div className="col-lg-4 col-md-6 portfolio-item filter-rn">
               <div className="portfolio-wrap">
                 <img
-                  src="/images/challenge2.png"
+                  src={challenge2}
                   className="img-fluid"
                   alt=""
                 />
@@ -130,6 +141,7 @@ class Projects extends Component {
                     href="https://github.com/euhenriquefranca/telzir-telefonia"
                     title="Github"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
                   </a>
