@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import "./App.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Presentation from "./components/presentation/Presentation";
 import AboutMe from "./components/aboutMe/AboutMe";
-import Tecnologies from "./components/technologies/Technologies";
-import "./App.css";
+import Technologies from "./components/technologies/Technologies";
+import Projects from "./components/projects/Projects";
 
 class App extends Component {
   render() {
@@ -14,7 +15,8 @@ class App extends Component {
         <Presentation />
         <AboutMe />
         <div className="container-fluid py-3 bg-light">
-          <Tecnologies />
+          <Technologies />
+          <Projects />
         </div>
         <Footer />
       </div>

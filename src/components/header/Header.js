@@ -4,7 +4,7 @@ const Header = () => (
   <header>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        <i class="fas fa-code"></i>&nbsp; HENRIQUE FRANÇA
+        <i className="fas fa-code"></i>&nbsp; HENRIQUE FRANÇA
       </a>
       <button
         className="navbar-toggler"
