@@ -28,7 +28,7 @@ const Contact = () => (
             </div>
 
             <div className="phone">
-              <a href="https://whats.link/rafaelmartins92" target="_blank" rel="noopener noreferrer">
+              <a href="https://whats.link/euhenriquefranca" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-whatsapp"></i>
               </a>
               <h4>Telefone:</h4>
