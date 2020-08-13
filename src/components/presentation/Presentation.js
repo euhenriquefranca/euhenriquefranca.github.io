@@ -1,18 +1,28 @@
 import React from "react";
+import logo from "../img/main.png";
 
 const Presentation = () => (
-  <div className="jumbotron">
-    <h1 className="display-4">
-      Olá, <br />
-      Eu sou o Henrique!
-    </h1>
-    <p className="lead text-muted">
-      Desenvolvedor Front End
-    </p>
-    <a className="btn btn-primary btn-lg" href="/" role="button">
-      Vamos conversar?
-    </a>
-  </div>
+  <section id="Presentation" className="d-flex align-items-center">
+    <div className="container">
+      <div className="row mx-auto">
+        <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
+          <h1>Olá,</h1>
+          <h1>Eu sou o Henrique!</h1>
+          <h2 className="text-muted">Desenvolvedor Front End</h2>
+          <button
+            type="button"
+            href="/"
+            className="btn btn-get-started"
+          >
+            Vamos conversar?
+          </button>
+        </div>
+        <div className="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src={logo} className="img-fluid animated" alt="" width="60%" />
+        </div>
+      </div>
+    </div>
+  </section>
 );
 
 export default Presentation;

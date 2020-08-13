@@ -1,7 +1,7 @@
 import React from "react";
 
 const Technologies = () => (
-  <section id="services" class="services section-bg">
+  <section id="technologies" class="technologies section-bg">
     <div className="container">
       <div className="section-title" data-aos="fade-up">
         <h2>Tecnologias</h2>

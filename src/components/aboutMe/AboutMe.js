@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import ImageAbout from "../img/image2.png";
+import ImageAbout from "../img/header.png";
 
 class AboutMe extends Component {
   render() {
     return (
-      <div
+      <section
         id="about"
-        className="container-fluid about row d-flex justify-content-between"
+        className="container-fluid about row d-flex justify-content-between pb-0"
       >
-        <div className="col-lg-6 d-flex align-items-center justify-content-center">
+        <div className="col-lg-6 d-flex align-items-center justify-content-center about-img">
           <img
             src={ImageAbout}
             alt="about-image"
@@ -31,14 +31,18 @@ class AboutMe extends Component {
             Bootstrap, JavaScript (ES6+), React.js, Git, Node.js, MongoDB,
             Docker, REST APIs.
           </p>
-          
+
           <p>
-            <a href="/" type="button" className="btn btn-primary">
+            <button
+              type="button"
+              href="/"
+              className="btn btn-get-cv"
+            >
               Confira meu CV
-            </a>
+            </button>
           </p>
         </div>
-      </div>
+      </section>
     );
   }
 }

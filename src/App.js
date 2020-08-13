@@ -6,6 +6,7 @@ import Presentation from "./components/presentation/Presentation";
 import AboutMe from "./components/aboutMe/AboutMe";
 import Technologies from "./components/technologies/Technologies";
 import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 
 class App extends Component {
   render() {
@@ -14,10 +15,9 @@ class App extends Component {
         <Header />
         <Presentation />
         <AboutMe />
-        <div className="container-fluid py-3 bg-light">
-          <Technologies />
-          <Projects />
-        </div>
+        <Technologies />
+        <Projects />
+        <Contact />
         <Footer />
       </div>
     );
