@@ -42,7 +42,7 @@ class Footer extends Component {
                     </a>
 
                     <a
-                      href="https://whats.link/rafaelmartins92"
+                      href="https://whats.link/euhenriquefranca"
                       className="whatsapp"
                       target="_blank"
                     >
