@@ -9,10 +9,14 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <header>
-          <nav className="navbar navbar-expand-lg navbar-light bg-white">
-            <a className="navbar-brand" href="/">
-              <i className="fas fa-code"></i>&nbsp; HENRIQUE FRANÇA
+        <header className="fixed-top" id="header-top">
+          <nav
+            className="navbar navbar-expand-lg navbar-light"
+            style={{ background: "#1F232A" }}
+          >
+            <a className="navbar-brand" style={{ color: "#61dafb" }} href="/">
+              <i className="fas fa-code" style={{ color: "#61dafb" }}></i>&nbsp;
+              HENRIQUE FRANÇA
             </a>
             <button
               className="navbar-toggler"
@@ -26,9 +30,10 @@ class Header extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
+              <ul className="nav navbar-nav">
                 <li className="nav-item active">
                   <Link
+                    href="/"
                     className="nav-link"
                     to="Presentation"
                     activeClass="active"
@@ -42,6 +47,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
+                    href="/"
                     className="nav-link"
                     to="about"
                     activeClass="active"
@@ -55,6 +61,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
+                    href="/"
                     className="nav-link"
                     to="technologies"
                     activeClass="active"
@@ -68,6 +75,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
+                    href="/"
                     className="nav-link"
                     to="portfolio"
                     activeClass="active"
@@ -81,6 +89,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
+                    href="/"
                     className="nav-link"
                     to="contact"
                     activeClass="active"
@@ -94,6 +103,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
+                    href="/"
                     className="nav-link"
                     to="social"
                     activeClass="active"

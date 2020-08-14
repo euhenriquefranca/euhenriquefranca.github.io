@@ -4,8 +4,8 @@ const Contact = () => (
   <section id="contact" className="contact pb-0">
     <div className="container">
       <div className="section-title" data-aos="fade-up">
-        <h2>Contatos</h2>
-        <p>Entre em contato para começarmos</p>
+        <h2>Contato</h2>
+        <p>Sinta-se livre para entrar em contato</p>
       </div>
 
       <div className="row justify-content-center">

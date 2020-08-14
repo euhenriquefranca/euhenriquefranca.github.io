@@ -23,6 +23,7 @@ class Footer extends Component {
                       href="https://github.com/euhenriquefranca"
                       className="github"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-github"></i>
                     </a>
@@ -30,6 +31,7 @@ class Footer extends Component {
                       href="https://www.instagram.com/euhenriquefranca/?hl=pt-br"
                       className="instagram"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-instagram"></i>
                     </a>
@@ -37,6 +39,7 @@ class Footer extends Component {
                       href="https://www.linkedin.com/in/euhenquefranca/"
                       className="linkedin"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-linkedin-in"></i>
                     </a>
@@ -45,6 +48,7 @@ class Footer extends Component {
                       href="https://whats.link/euhenriquefranca"
                       className="whatsapp"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-whatsapp"></i>
                     </a>
@@ -55,11 +59,11 @@ class Footer extends Component {
           </div>
         </section>
 
-        <div class="container py-4">
+        <div class="container">
           <div class="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>Henrique França</span>
+              <span style={{ color: "#61dafb" }}>Henrique França</span>
             </strong>{" "}
             2020
           </div>

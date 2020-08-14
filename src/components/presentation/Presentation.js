@@ -9,7 +9,11 @@ const Presentation = () => (
           <h1>Olá,</h1>
           <h1>Eu sou o Henrique!</h1>
           <h2 className="text-muted">Desenvolvedor Front End</h2>
-          <a href="https://whats.link/euhenriquefranca" target="_blank">
+          <a
+            href="https://whats.link/euhenriquefranca"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="btn btn-get-started">Vamos conversar?</button>
           </a>
         </div>
